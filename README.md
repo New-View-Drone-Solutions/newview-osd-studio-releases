@@ -4,7 +4,7 @@
 
 NewView FPV OSD Studio is a desktop app for Windows and macOS that builds custom on-screen display (OSD) fonts for Betaflight, INAV and ArduPilot. One click exports a complete font pack for Walksnail, HDZero, DJI (WTFOS), Caddx goggles, analog video and the [SNEAKY_FPV](https://sites.google.com/view/sneaky-fpv/home) OSD Overlay tool.
 
-Current version: **v2.4** (tester / review release). A personal licence key is required. See [Getting a licence key](#getting-a-licence-key).
+Current version: **v2.5**. **Free:** no account and no licence key. If it helps you, please [follow NewView FPV](#free-to-use---please-follow-us).
 
 ![Create a font with a live Betaflight preview](docs/screenshots/01-create-font-betaflight.png)
 
@@ -47,7 +47,7 @@ A ready-to-share zip pack can be made at the same time.
 
 ## Firmware support
 
-| Firmware | Status in v2.4 |
+| Firmware | Status in v2.5 |
 |---|---|
 | **Betaflight** | Supported on all export targets. Every target passes the font pack validator (firmware loader rules, decode-back check against the stock icons, comparison with a control pack). |
 | **INAV** | Supported on all export targets, including INAV HD icon sets. Passes the same validator checks. |
@@ -77,32 +77,32 @@ Notes:
 Download the latest build from the **[Releases](../../releases)** page.
 
 ### Windows (10 or 11)
-1. Download **NewView OSD Studio v2.4 - Windows.zip** and unzip it somewhere permanent, such as Documents or the Desktop. Keep the whole folder together.
+1. Download **NewView OSD Studio v2.5 - Windows.zip** and unzip it somewhere permanent, such as Documents or the Desktop. Keep the whole folder together.
 2. Double-click **Start NewView OSD Studio**.
 3. If Windows shows "Windows protected your PC", click **More info**, then **Run anyway**. (The app is not yet signed with a Microsoft certificate.)
 
 Nothing else needs installing. Python and every library the app uses are included in the folder.
 
 ### macOS (10.13 or newer, Apple Silicon or Intel)
-1. Download **NewView OSD Studio v2.4 - Mac.zip**, unzip it and drag **NewView OSD Studio.app** into Applications.
+1. Download **NewView OSD Studio v2.5 - Mac.zip**, unzip it and drag **NewView OSD Studio.app** into Applications.
 2. The first time only, right-click (or Control-click) the app and choose **Open**, then **Open** again. On newer macOS, open **System Settings > Privacy & Security** and click **Open Anyway** next to NewView OSD Studio.
 
-> The Mac build is packaged from the same source as the Windows build, but v2.4 has not yet been run on a Mac. Please report any problems.
+> The Mac build is packaged from the same source as the Windows build, but v2.5 has not yet been run on a Mac. Please report any problems.
 
 Full instructions are in **OSD Studio - User Manual.pdf**, included in both downloads.
 
 ---
 
-## Getting a licence key
+## Free to use - please follow us
 
-The first time the app opens, it shows an activation screen with your **Computer ID**.
+OSD Studio is free, and it stays free. The first time it opens, a short welcome screen asks you to follow NewView FPV. Click **MAYBE LATER** to skip; it only shows once, and the **FOLLOW NEWVIEW FPV** button at the top right opens it again any time. Nothing is locked and nothing is checked.
 
-![Activation screen](docs/screenshots/12-activation-screen.png)
+![Follow NewView FPV welcome screen](docs/screenshots/12-follow-screen.png)
 
-1. Email **info@newviewdronesolutions.com** with your name and the Computer ID (the **COPY** button copies it for you).
-2. When your key arrives, paste the whole key (it starts with `NVOSD-`) and click **ACTIVATE**, or click **LOAD KEY FILE...** and choose the `.nvkey` file you were sent.
-
-The app remembers your key on that computer. The badge at the top right shows who the copy is licensed to and how many days are left. Each key is issued to one person; please do not share the app or your key.
+- Instagram: https://www.instagram.com/newviewfpv
+- Facebook: https://www.facebook.com/NewViewFPV/
+- YouTube: https://www.youtube.com/@NewViewFPV
+- Discord: bigredfpv
 
 ---
 
@@ -129,6 +129,7 @@ Bundled typefaces are used under the SIL Open Font License 1.1 or the Apache Lic
 **NewView FPV** by New View Drone Solutions  
 Website: https://www.newviewdronesolutions.com/  
 Instagram: https://www.instagram.com/newviewfpv  
+Facebook: https://www.facebook.com/NewViewFPV/  
 YouTube: https://www.youtube.com/@NewViewFPV  
 Discord: bigredfpv  
 Contact: info@newviewdronesolutions.com
